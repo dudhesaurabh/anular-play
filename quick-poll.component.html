@@ -1,0 +1,13 @@
+<p>
+  quick-poll works!
+  
+</p>
+
+<h3>{{quickPoll.answer}}</h3>
+
+<h3>{{quickPoll.questionText }}</h3>
+
+<div *ngFor="let option of quickPoll.options">
+  {{option.label}}
+</div>
+
